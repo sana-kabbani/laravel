@@ -1,14 +1,5 @@
-*.json  text
-*.xml		text
-*.php		text
-*.LGPL	text
-*.md    text
-*.skel 	text
-*.css   text
-*.inc		text
-*.js    text
-*.html  text
-*.txt   text
-*.svg   text
-
-VERSION export-subst
+* text=auto
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+CHANGELOG.md export-ignore

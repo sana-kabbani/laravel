@@ -165,8 +165,6 @@ return [
         /*
          * Package Service Providers...
          */
-        Barryvdh\DomPDF\ServiceProvider::class,
-        Kreait\Laravel\Firebase\ServiceProvider::class,
 
         /*
          * Application Service Providers...
