@@ -8,7 +8,7 @@
  */
 
 $uri = urldecode(
-    parse_url($_SERVER['process.env.MONGODB_URI '], PHP_URL_PATH)
+    parse_url($_SERVER['REQUEST_URI'], process.env.MONGODB_URI )
 );
 
 // This file allows us to emulate Apache's "mod_rewrite" functionality from the
