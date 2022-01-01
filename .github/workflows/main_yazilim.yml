@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'yazilim'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5345A1BDA17E40158C39259C146E8CB0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B3341DC9F1414C359AD3EAF5CD2F9B68 }}
           package: .
